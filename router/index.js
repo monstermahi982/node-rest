@@ -3,7 +3,7 @@ import { registerController } from '../controllers';
 
 const route = express.Router();
 
-route.get('/register', registerController.register)
+route.post('/register', registerController.register)
 
 
 export default route
